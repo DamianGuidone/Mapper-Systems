@@ -1,0 +1,328 @@
+[
+    {
+        "id": "node_szcs2xidn",
+        "text": "EMISI\u00d3N",
+        "icon": "fas fa-folder",
+        "li_attr": {
+            "id": "node_szcs2xidn"
+        },
+        "a_attr": {
+            "href": "#",
+            "id": "node_szcs2xidn_anchor"
+        },
+        "state": {
+            "loaded": true,
+            "opened": true,
+            "selected": false,
+            "disabled": false
+        },
+        "data": {
+            "descripcion": "EMISI\u00d3N",
+            "tipo_nodo": "carpeta"
+        },
+        "parent": "#",
+        "type": "default"
+    },
+    {
+        "id": "node_atngcozww",
+        "text": "SOLICITUDES",
+        "icon": "fas fa-folder",
+        "li_attr": {
+            "id": "node_atngcozww"
+        },
+        "a_attr": {
+            "href": "#",
+            "id": "node_atngcozww_anchor"
+        },
+        "state": {
+            "loaded": true,
+            "opened": true,
+            "selected": false,
+            "disabled": false
+        },
+        "data": {
+            "descripcion": "SOLICITUDES DE ENDOSOS",
+            "ultima_modificacion": "2025-05-09",
+            "ultima_revision": "2025-05-09",
+            "tipo_nodo": "carpeta",
+            "historial_file": "history/node_atngcozww.json"
+        },
+        "parent": "node_szcs2xidn",
+        "type": "default"
+    },
+    {
+        "id": "node_thxaeac30",
+        "text": "SOLICITUDES NUEVAS",
+        "icon": "fas fa-folder",
+        "li_attr": {
+            "id": "node_thxaeac30"
+        },
+        "a_attr": {
+            "href": "#",
+            "id": "node_thxaeac30_anchor"
+        },
+        "state": {
+            "loaded": true,
+            "opened": true,
+            "selected": false,
+            "disabled": false
+        },
+        "data": {
+            "descripcion": "SOLICITUDES DE ENDOSOS NUEVAS",
+            "ultima_modificacion": "2025-05-09",
+            "ultima_revision": "2025-05-13",
+            "tipo_nodo": "carpeta",
+            "historial_file": "history/node_thxaeac30.json"
+        },
+        "parent": "node_atngcozww",
+        "type": "default"
+    },
+    {
+        "id": "node_ngqof53bt",
+        "text": "ARMAR PANTALLA DE DATOS GENERALES",
+        "icon": "fas fa-database",
+        "li_attr": {
+            "id": "node_ngqof53bt"
+        },
+        "a_attr": {
+            "href": "#",
+            "id": "node_ngqof53bt_anchor"
+        },
+        "state": {
+            "loaded": true,
+            "opened": true,
+            "selected": false,
+            "disabled": false,
+            "hidden": false
+        },
+        "data": {
+            "descripcion": "ARMAR PANTALLA DE DATOS GENERALES DE SOLICITUD",
+            "ultima_modificacion": "2025-05-09",
+            "ultima_revision": "2025-05-09",
+            "archivo": "ARMAR LA PANTALLA DE SOLICITUD.sql",
+            "tipo_nodo": "bd",
+            "historial_file": "history/node_ngqof53bt.json"
+        },
+        "parent": "node_thxaeac30",
+        "type": "leaf"
+    },
+    {
+        "id": "node_s64wciipu",
+        "text": "TOMADOR ES TAMBIEN PAGADOR",
+        "icon": "fas fa-database",
+        "li_attr": {
+            "id": "node_s64wciipu"
+        },
+        "a_attr": {
+            "href": "#",
+            "id": "node_s64wciipu_anchor"
+        },
+        "state": {
+            "loaded": true,
+            "opened": false,
+            "selected": false,
+            "disabled": false
+        },
+        "data": {
+            "descripcion": "TOMADOR ES TAMBIEN PAGADOR",
+            "tipo_nodo": "bd",
+            "archivo": "CHECK EL TOMADOR ES TAMBIEN PAGADOR.sql",
+            "historial_file": "history/node_s64wciipu.json"
+        },
+        "parent": "node_ngqof53bt",
+        "type": "leaf"
+    },
+    {
+        "id": "node_saxu81lzt",
+        "text": "AVANZAR A PANTALLA DE RIESGOS",
+        "icon": "fas fa-database",
+        "li_attr": {
+            "id": "node_saxu81lzt"
+        },
+        "a_attr": {
+            "href": "#",
+            "id": "node_saxu81lzt_anchor"
+        },
+        "state": {
+            "loaded": true,
+            "opened": true,
+            "selected": false,
+            "disabled": false,
+            "hidden": false
+        },
+        "data": {
+            "descripcion": "AVANZAR A PANTALLA DE RIESGOS LUEGO DE DATOS GENERALES",
+            "ultima_modificacion": "2025-05-09",
+            "ultima_revision": "2025-05-09",
+            "archivo": "AVANZAR A PANTALLA DE RIESGOS.sql",
+            "tipo_nodo": "bd",
+            "historial_file": "history/node_saxu81lzt.json",
+            "text": "AVANZAR A PANTALLA DE RIESGOS"
+        },
+        "parent": "node_thxaeac30",
+        "type": "leaf"
+    },
+    {
+        "id": "node_f9smcwcs7",
+        "text": "PRESIONAR BOT\u00d3N AGREGAR RIESGO",
+        "icon": "fas fa-database",
+        "li_attr": {
+            "id": "node_f9smcwcs7"
+        },
+        "a_attr": {
+            "href": "#",
+            "id": "node_f9smcwcs7_anchor"
+        },
+        "state": {
+            "loaded": true,
+            "opened": true,
+            "selected": false,
+            "disabled": false,
+            "hidden": false
+        },
+        "data": {
+            "descripcion": "PRESIONAR BOT\u00d3N AGREGAR RIESGO (CASO cod_ramo = 200 \"INCENDIO\")",
+            "tipo_nodo": "bd",
+            "archivo": "PRESIONAR BOTON AGREGAR RIESGO CASO cod_ramo = 200 INCENDIO.sql",
+            "ultima_modificacion": "2025-05-12",
+            "ultima_revision": "2025-05-12",
+            "historial_file": "history/node_f9smcwcs7.json"
+        },
+        "parent": "node_saxu81lzt",
+        "type": "leaf"
+    },
+    {
+        "id": "node_amkr51xs0",
+        "text": "CAMBIAR SELECCI\u00d3N DE GIRO DE NEGOCIO (Aceites)",
+        "icon": "fas fa-database",
+        "li_attr": {
+            "id": "node_amkr51xs0"
+        },
+        "a_attr": {
+            "href": "#",
+            "id": "node_amkr51xs0_anchor"
+        },
+        "state": {
+            "loaded": true,
+            "opened": true,
+            "selected": false,
+            "disabled": false,
+            "hidden": false
+        },
+        "data": {
+            "descripcion": "CAMBIAR SELECCI\u00d3N DE GIRO DE NEGOCIO (Aceites)",
+            "tipo_nodo": "bd",
+            "archivo": "CAMBIAR SELECCION DE GIRO DE NEGOCIO (Aceites).sql",
+            "ultima_modificacion": "2025-05-13",
+            "ultima_revision": "2025-05-12",
+            "historial_file": "history/node_amkr51xs0.json",
+            "text": "CAMBIAR SELECCI\u00d3N DE GIRO DE NEGOCIO (Aceites)"
+        },
+        "parent": "node_saxu81lzt",
+        "type": "leaf"
+    },
+    {
+        "id": "node_d8t1pqmcm",
+        "text": "Riesgos",
+        "icon": "fab fa-js",
+        "li_attr": {
+            "id": "node_d8t1pqmcm"
+        },
+        "a_attr": {
+            "href": "#",
+            "id": "node_d8t1pqmcm_anchor"
+        },
+        "state": {
+            "loaded": true,
+            "opened": false,
+            "selected": false,
+            "disabled": false
+        },
+        "data": {
+            "descripcion": "Encapsula y explica varias de las funciones js relacionadas con el preceso del registro de un riesgo en una solicitud nueva.",
+            "tipo_nodo": "js",
+            "historial_file": "history/node_d8t1pqmcm.json",
+            "ultima_modificacion": "2025-05-16",
+            "ultima_revision": "2025-05-16"
+        },
+        "parent": "node_amkr51xs0",
+        "type": "leaf"
+    },
+    {
+        "id": "node_wzb5m7phx",
+        "text": "DIALOGO TOMADOR ES PAGADOR",
+        "icon": "fas fa-database",
+        "li_attr": {
+            "id": "node_wzb5m7phx"
+        },
+        "a_attr": {
+            "href": "#",
+            "id": "node_wzb5m7phx_anchor"
+        },
+        "state": {
+            "loaded": true,
+            "opened": false,
+            "selected": true,
+            "disabled": false
+        },
+        "data": {
+            "descripcion": "DIALOGO TOMADOR ES PAGADOR",
+            "tipo_nodo": "bd",
+            "archivo": "PRESIONAR BOTON AGREGAR DE DIALOGO TOMADOR ES PAGADOR.sql",
+            "historial_file": "history/node_wzb5m7phx.json",
+            "ultima_revision": "2025-05-18"
+        },
+        "parent": "node_saxu81lzt",
+        "type": "leaf"
+    },
+    {
+        "id": "node_f53bmkdek",
+        "text": "Uno nuevo",
+        "icon": "fas fa-database",
+        "li_attr": {
+            "id": "node_f53bmkdek"
+        },
+        "a_attr": {
+            "href": "#"
+        },
+        "state": {
+            "loaded": true,
+            "opened": false,
+            "selected": false,
+            "disabled": false
+        },
+        "data": {
+            "descripcion": "dfsdfsdfsfsfsdfdsfsdfsdf",
+            "tipo_nodo": "js",
+            "historial_file": "history/node_f53bmkdek.json"
+        },
+        "parent": "node_wzb5m7phx",
+        "type": "leaf"
+    },
+    {
+        "id": "node_9o6g31a1v",
+        "text": "PRESIONAR BOTON LIQUIDADORES",
+        "icon": "fas fa-database",
+        "li_attr": {
+            "id": "node_9o6g31a1v"
+        },
+        "a_attr": {
+            "href": "#",
+            "id": "node_9o6g31a1v_anchor"
+        },
+        "state": {
+            "loaded": true,
+            "opened": false,
+            "selected": false,
+            "disabled": false
+        },
+        "data": {
+            "descripcion": "PRESIONAR BOTON LIQUIDADORES",
+            "tipo_nodo": "bd",
+            "archivo": "PRESIONAR BOTON LIQUIDADORES.sql",
+            "historial_file": "history/node_9o6g31a1v.json"
+        },
+        "parent": "node_saxu81lzt",
+        "type": "leaf"
+    }
+]

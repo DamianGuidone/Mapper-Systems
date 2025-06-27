@@ -1,0 +1,30 @@
+[
+    {
+        "fecha": "2025-05-12T19:15:10.794095",
+        "campo": "nuevo_nodo",
+        "anterior": "",
+        "nuevo": "AVANZAR A PANTALLA DE RIESGOS",
+        "usuario": "Damian"
+    },
+    {
+        "fecha": "2025-05-13T00:38:16.363Z",
+        "campo": "nuevo_nodo",
+        "anterior": "",
+        "nuevo": "EMISI\u00d3N",
+        "usuario": "Damian"
+    },
+    {
+        "fecha": "2025-05-15T20:39:20.876Z",
+        "campo": "nuevo_nodo",
+        "anterior": "",
+        "nuevo": "DIALOGO TOMADOR ES PAGADOR",
+        "usuario": "dguidone"
+    },
+    {
+        "fecha": "2025-05-15T20:41:23.942Z",
+        "campo": "nuevo_nodo",
+        "anterior": "",
+        "nuevo": "PRESIONAR BOTON LIQUIDADORES",
+        "usuario": "dguidone"
+    }
+]

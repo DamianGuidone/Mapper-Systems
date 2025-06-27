@@ -1,0 +1,23 @@
+[
+    {
+        "fecha": "2025-05-15T20:39:20.550Z",
+        "campo": "nuevo_nodo",
+        "anterior": "",
+        "nuevo": "DIALOGO TOMADOR ES PAGADOR",
+        "usuario": "dguidone"
+    },
+    {
+        "fecha": "2025-05-18T17:23:47.911Z",
+        "campo": "ultima_revision",
+        "anterior": "-",
+        "nuevo": "2025-05-18",
+        "usuario": "dguidone"
+    },
+    {
+        "fecha": "2025-05-18T18:14:51.189Z",
+        "campo": "nuevo_nodo",
+        "anterior": "",
+        "nuevo": "Uno nuevo",
+        "usuario": "dguidone"
+    }
+]
