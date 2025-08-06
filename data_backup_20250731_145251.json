@@ -1,0 +1,75 @@
+[
+    {
+        "id": "node_zhv6ruft1",
+        "text": "4U",
+        "icon": "fas fa-folder",
+        "type": "default",
+        "parent": "#",
+        "data": {
+            "descripcion": "Nodo principal de 4U",
+            "tipo_nodo": "carpeta",
+            "historial_file": "history/node_zhv6ruft1.json"
+        },
+        "state": {
+            "loaded": true,
+            "opened": false,
+            "selected": false,
+            "disabled": false
+        }
+    },
+    {
+        "id": "node_olsoof7h1",
+        "text": "ARMAR LA PANTALLA DE SOLICITUD",
+        "icon": "fas fa-database",
+        "type": "leaf",
+        "parent": "node_zhv6ruft1",
+        "data": {
+            "descripcion": "Arma pantalla de solicitud nueva de emisión",
+            "tipo_nodo": "bd",
+            "archivo": "ARMAR LA PANTALLA DE SOLICITUD.sql",
+            "historial_file": "history/node_olsoof7h1.json"
+        },
+        "state": {
+            "loaded": true,
+            "opened": false,
+            "selected": false,
+            "disabled": false
+        }
+    },
+    {
+        "id": "node_e3ubtrtd5",
+        "text": "Solicitud",
+        "icon": "fab fa-js",
+        "type": "leaf",
+        "parent": "node_olsoof7h1",
+        "data": {
+            "descripcion": "Js",
+            "tipo_nodo": "js",
+            "historial_file": "history/node_e3ubtrtd5.json"
+        },
+        "state": {
+            "loaded": true,
+            "opened": false,
+            "selected": false,
+            "disabled": false
+        }
+    },
+    {
+        "id": "node_8c6nxaxmc",
+        "text": "Libra",
+        "icon": "fas fa-folder",
+        "type": "default",
+        "parent": "node_zhv6ruft1",
+        "data": {
+            "descripcion": "Nodo para documentar Libra",
+            "tipo_nodo": "carpeta",
+            "historial_file": "history/node_8c6nxaxmc.json"
+        },
+        "state": {
+            "loaded": true,
+            "opened": false,
+            "selected": false,
+            "disabled": false
+        }
+    }
+]
